@@ -13,6 +13,7 @@
 
 <body class="bg-geekblue-black">
     @yield('content')
+    @include('layouts.toastify')
 </body>
 
 </html>

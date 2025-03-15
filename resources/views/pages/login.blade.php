@@ -5,13 +5,14 @@
         class="w-full p-[1px] h-full bg-[linear-gradient(to_bottom_right,#6872FF,#A268FF,#DC68FF,#190DC0,#6CB3FF)] rounded-4xl max-w-4xl max-h-12/12 xl:max-h-11/12">
         <div class="bg-geekblue-black overflow-hidden relative w-full h-full rounded-[31px]">
             <div class="absolute w-full h-full p-5 lg:p-10 space-y-5 flex flex-col md:grid md:grid-cols-9 gap-4">
-                <div class="col-span-5 space-y-2">
+                <div class="col-span-5 space-y-2 relative">
                     <h1 class="text-3xl md:text-4xl font-bold text-white">Join Over 2568+ <br> <span
                             class="bg-gradient-to-r from-geekblue-700 to-pink-300 bg-clip-text font-extrabold text-transparent">Expert
                             Designers</span></h1>
                     <p class="text-neutrail-400 text-base/5">Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit.
                         Repellendus provident ab, saepe adipisci facere sed!</p>
+                    {{-- <img src="{{ asset('style-assets/Layer 1.png') }}" alt="" class="absolute -bottom-10"> --}}
 
                 </div>
 
@@ -46,9 +47,6 @@
                                 </div>
                                 <button type="submit"
                                     class="text-white cursor-pointer bg-geekblue-700 hover:bg-geekblue-600 duration-200 font-bold text-lg w-full mt-2 py-2 rounded-xl">Войти</button>
-                                @if(session('message'))
-                                {{ session('message') }}
-                                @endif
                             </form>
                             <div>
                                 <p class="text-neutrail-300 text-center">Нет аккаунта? - <a href="/register"
