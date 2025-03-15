@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+
+@theme {
+    --font-barlow: "Barlow", sans-serif;
+    /* colors */
+    --color-geekblue-black: #010009;
+    --color-geekblue-1000: #030852;
+    --color-geekblue-900: #061178;
+    --color-geekblue-800: #10239E;
+    --color-geekblue-700: #1D39C4;
+    --color-geekblue-600: #2F54EB;
+    --color-geekblue-500: #597EF7;
+    --color-geekblue-400: #85A5FF;
+    --color-geekblue-300: #ADC6FF;
+    --color-geekblue-200: #D6E4FF;
+    --color-geekblue-100: #F0F5FF;
+
+    --color-neutrail-500: #2E3B52;
+    --color-neutrail-400: #657997;
+    --color-neutrail-300: #95ACCB;
+    --color-neutrail-200: #C3D7ED;
+    --color-neutrail-100: #DBE3F1;
+
+    --color-success-500: #9EFF00;
+    --color-success-400: #B1FF33;
+    --color-success-300: #C5FF66;
+    --color-success-200: #D8FF99;
+    --color-success-100: #ECFFCC;
+
+    --color-info: #1890FF;
+
+    --color-warning: #FADB14;
+
+    --color-danger: #FA541C;
+
+    --color-accent: #13C2C2;
+    
+    --color-grad-1-1: #6872FF;
+    --color-grad-1-2: #A268FF;
+    --color-grad-1-3: #DC68FF;
+    --color-grad-1-4: #190DC0;
+    --color-grad-1-5: #6CB3FF;
+    --color-grad-2-1: #85A5FF;
+    --color-grad-2-2: #10239E;
+
+
+
+    
+}
