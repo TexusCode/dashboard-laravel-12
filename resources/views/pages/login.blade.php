@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<main class=" h-screen w-screen p-10 md:p-20 flex justify-center items-center">
+<main class=" h-screen w-screen p-4 md:p-20 flex justify-center items-center">
     <div
         class="w-full p-[1px] h-full bg-[linear-gradient(to_bottom_right,#6872FF,#A268FF,#DC68FF,#190DC0,#6CB3FF)] rounded-4xl max-w-4xl max-h-12/12 xl:max-h-11/12">
         <div class="bg-geekblue-black overflow-hidden relative w-full h-full rounded-[31px]">
